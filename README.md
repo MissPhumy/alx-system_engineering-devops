@@ -1,6 +1,6 @@
 # alx-system_engineering-devops
 Bash projects
-# About projects
+## About projects
 
 |Project name | Description |
 | ------------ | ----------- |
