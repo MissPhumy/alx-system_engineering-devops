@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Include /etc/ssh/ssh_config.d/*.conf
 
 Host *
@@ -33,3 +34,9 @@ Host *
     SendEnv LANG LC_*
     HashKnownHosts yes
     GSSAPIAuthentication yes
+=======
+# ssh config file
+Host *
+      PasswordAuthentication no
+      IdentifyFile ~/.ssh/school
+>>>>>>> 0aceca716265648813ca5bae44dfb63eba490543
