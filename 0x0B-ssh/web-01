@@ -1,0 +1,9 @@
+#!/bin/env bash
+# log into server-01
+
+
+eval $("ssh-agent")
+
+ssh-add  /home/missphumy/.ssh/id_rsa.pub
+
+ssh ubuntu@52.90.15.41
