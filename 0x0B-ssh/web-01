@@ -1,9 +1,16 @@
 #!/bin/env bash
 # log into server-01
 
+<<<<<<< HEAD
+eval $("ssh-agent")
+
+
+ssh-add ~/empty_directory/school 
+=======
 
 eval $("ssh-agent")
 
 ssh-add  /home/missphumy/.ssh/id_rsa.pub
+>>>>>>> 0aceca716265648813ca5bae44dfb63eba490543
 
 ssh ubuntu@52.90.15.41
