@@ -3,7 +3,7 @@
 server {
     # Listen on port 80
     listen      80 default_server;
-    listen      [::]:80 default_server ipv6only=on;
+    listen      [::]:80 default_server;
 
     # Use server IP as domain name
     server_name 54.146.63.145;
@@ -17,7 +17,7 @@ server {
     }
 
     # Serve /number_odd_or_even/ route on AirBnB_clone_v2
-    location ~ /airbnb-dynamic/number_odd_or_even/(\d+) {
+    location ~ /airbnb-dynamic/number_odd_or_even/(\d+)$ {
         proxy_pass http://127.0.0.1:5001/number_odd_or_even/$1;
     }
 
